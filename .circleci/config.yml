@@ -1,8 +1,0 @@
-version: 2
-jobs:
-  build:
-    docker:
-      - image: circleci/clojure:openjdk-8-tools-deps-node
-    steps:
-      - checkout
-      - run: ./script/test.sh
