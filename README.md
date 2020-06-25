@@ -1,4 +1,4 @@
-# repro-shadow-analyzer-macro-diff
+# repro-shadow-cljs-analyzer-macro-diff
 
 There are differences in the analyzer compiler env maps when compiling under 
 ClojureScript vs when compiling under Shadow CLJS. 
