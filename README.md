@@ -34,8 +34,7 @@ So I updated this little app to also dump the output of a call to `cljs.analyzer
 
 Results for ClojureScript:
 
-Clojure
-```
+```Clojure
 {:protocol-inline nil,
  :meta {:file "/Users/lee/proj/oss/repro-shadow-cljs-analyzer-macro-diff/src/shadow_macro_test/ns1.cljc",
         :line 8,
@@ -64,8 +63,7 @@ Clojure
 
 Versus results for Shadow CLJS:
 
-Clojure
-```
+```Clojure
 {:arglists ([a]),
  :line 8,
  :column 1,
