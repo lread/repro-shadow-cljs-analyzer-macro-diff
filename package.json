@@ -1,0 +1,7 @@
+{
+  "name": "shadow-macro-test",
+  "version": "1.0.0",
+  "devDependencies": {
+    "shadow-cljs": "^2.10.13"
+  }
+}

@@ -1,0 +1,8 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :builds
+ {:app {:target :node-script
+        :main shadow-macro-test.ns2/main
+        :output-to "target/blap.js"}}}

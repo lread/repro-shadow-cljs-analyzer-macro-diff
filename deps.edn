@@ -1,0 +1,4 @@
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}
+ :aliases {:diff {:paths ["script"]
+                  :extra-deps {lambdaisland/deep-diff2 {:mvn/version "2.0.0-93"}}
+                  :main-opts ["-m" "edn-diff"]}}}
